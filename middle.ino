@@ -17,10 +17,10 @@ void loop() {
    //Serial.println(input);
    Serial.println(input_map);
    if(input_map>180){
-    myservo.write(90); 
+    myservo.write(80); 
     }
   else if(input_map<60){
-    myservo.write(-90); 
+    myservo.write(-80); 
     }  
 
  //ledcWrite(0, input_map);  //頻道0
